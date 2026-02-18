@@ -1,0 +1,22 @@
+{
+  "name": "docket-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["task-management", "api", "express", "mongodb"],
+  "author": "",
+  "license": "ISC",
+  "description": "Backend API for Docket - Task Management Application",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
